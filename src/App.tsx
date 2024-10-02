@@ -6,7 +6,7 @@ export const App = () => {
       onClick={() => {}}
       onScroll={() => {}}
     >
-      Basic React App
+      Basic React App 1
     </h1>
   );
 };
