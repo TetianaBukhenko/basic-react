@@ -1,10 +1,13 @@
 {
+  "homepage": "https://tetianabukhenko.github.io/basic-react/",
   "name": "basic-react-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc -b && vite build",
     "lint": "eslint --fix ./src",
     "preview": "vite preview",
@@ -28,6 +31,7 @@
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
+    "gh-pages": "^6.1.1",
     "globals": "^15.10.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
